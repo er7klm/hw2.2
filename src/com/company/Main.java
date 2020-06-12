@@ -13,12 +13,12 @@ public class Main {
             System.out.println();
         }
 
-        if (age < 20 && (temperature >= 0 && temperature <= 28)) {
+        else if (age < 20 && (temperature >= 0 && temperature <= 28)) {
             System.out.println("Можно идти гулять");
             System.out.println();
         }
 
-        if ((age > 45) && (temperature > -10 && temperature < 25)) {
+        else if ((age > 45) && (temperature > -10 && temperature < 25)) {
             System.out.println("Можно идти гулять");
             System.out.println();
         } else {
